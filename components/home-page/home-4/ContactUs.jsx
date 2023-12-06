@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const ContactUs = () => {
   const handleSubmit = (event) => {
@@ -45,7 +45,7 @@ const ContactUs = () => {
               name="message"
               required="required"
               data-error="Please,leave us a message."
-              defaultValue={""}
+              defaultValue={''}
             />
             <div className="help-block with-errors" />
           </div>
@@ -53,16 +53,14 @@ const ContactUs = () => {
         {/* End .col-12 */}
 
         <div className="col-12">
-          <button className="btn-nine border3 w-100 fw-500 tran3s text-uppercase tx-dark">
-            Join Now
-          </button>
+          <button className="btn-nine border3 w-100 fw-500 tran3s text-uppercase tx-dark">Join Now</button>
         </div>
         {/* End .col-12 */}
       </div>
       {/* End .row */}
 
       <div className="fs-16 text-center mt-25">
-        <span className="opacity-75">Been here before?</span>{" "}
+        <span className="opacity-75">Been here before?</span>{' '}
         <a href="#" className="tx-dark fw-500">
           Start helping the poor
         </a>

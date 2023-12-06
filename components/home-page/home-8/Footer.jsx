@@ -1,42 +1,42 @@
-import Link from "next/link";
-import { useState } from "react";
+import Link from 'next/link';
+import { useState } from 'react';
 
 const footerLinks = [
   {
-    title: "Links",
+    title: 'Links',
     links: [
-      { label: "Home", href: "/" },
-      { label: "Pricing", href: "/pages-menu/pricing" },
-      { label: "About us", href: "/pages-menu/about-us-v1" },
-      { label: "Careers", href: "/blog/blog-v1" },
-      { label: "Features", href: "/pages-menu/service-v1" },
-      { label: "Demo the product", href: "/blog/blog-v1" },
+      { label: 'Home', href: '/' },
+      { label: 'Pricing', href: '/pages-menu/pricing' },
+      { label: 'About us', href: '/pages-menu/about-us-v1' },
+      { label: 'Careers', href: '/blog/blog-v1' },
+      { label: 'Features', href: '/pages-menu/service-v1' },
+      { label: 'Demo the product', href: '/blog/blog-v1' },
     ],
   },
   {
-    title: "Legal",
+    title: 'Legal',
     links: [
-      { label: "Terms of use", href: "/pages-menu/faq" },
-      { label: "Terms & conditions", href: "/pages-menu/faq" },
-      { label: "Privacy policy", href: "/pages-menu/faq" },
-      { label: "Cookie policy", href: "/pages-menu/faq" },
+      { label: 'Terms of use', href: '/pages-menu/faq' },
+      { label: 'Terms & conditions', href: '/pages-menu/faq' },
+      { label: 'Privacy policy', href: '/pages-menu/faq' },
+      { label: 'Cookie policy', href: '/pages-menu/faq' },
     ],
   },
   {
-    title: "Products",
+    title: 'Products',
     links: [
-      { label: "Take the tour", href: "/pages-menu/faq" },
-      { label: "Live chat", href: "/pages-menu/faq" },
-      { label: "Self-service", href: "/pages-menu/faq" },
-      { label: "Social", href: "/pages-menu/faq" },
-      { label: "Collaboration", href: "/pages-menu/faq" },
-      { label: "Jano Reviews", href: "/pages-menu/faq" },
+      { label: 'Take the tour', href: '/pages-menu/faq' },
+      { label: 'Live chat', href: '/pages-menu/faq' },
+      { label: 'Self-service', href: '/pages-menu/faq' },
+      { label: 'Social', href: '/pages-menu/faq' },
+      { label: 'Collaboration', href: '/pages-menu/faq' },
+      { label: 'Jano Reviews', href: '/pages-menu/faq' },
     ],
   },
 ];
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -54,27 +54,14 @@ const Footer = () => {
             <img src="/images/logo/logo_05.png" alt="" width={95} />
           </Link>
         </div>
-        <h6 className="pt-40 pb-10 text-white fw-normal">
-          Join our newsletter
-        </h6>
-        <form
-          onSubmit={handleSubmit}
-          action="#"
-          className="position-relative me-xxl-5"
-        >
-          <input
-            type="email"
-            placeholder="Enter your email"
-            value={email}
-            onChange={handleEmailChange}
-          />
+        <h6 className="pt-40 pb-10 text-white fw-normal">Join our newsletter</h6>
+        <form onSubmit={handleSubmit} action="#" className="position-relative me-xxl-5">
+          <input type="email" placeholder="Enter your email" value={email} onChange={handleEmailChange} />
           <button type="submit" className="fw-500 position-absolute">
             Subscribe
           </button>
         </form>
-        <div className="fs-14 mt-10 text-white opacity-50">
-          We only send interesting and relevant emails.
-        </div>
+        <div className="fs-14 mt-10 text-white opacity-50">We only send interesting and relevant emails.</div>
       </div>
       {/* End .col */}
       {footerLinks.map((section) => (

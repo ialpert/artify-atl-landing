@@ -1,33 +1,33 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const links = [
   {
-    title: "Links",
+    title: 'Links',
     links: [
-      { title: "Home", url: "/" },
-      { title: "Pricing", url: "/pages-menu/pricing" },
-      { title: "About us", url: "/pages-menu/about-us-v1" },
-      { title: "Service", url: "/pages-menu/service-v1" },
-      { title: "Blog", url: "/blog/blog-v1" },
+      { title: 'Home', url: '/' },
+      { title: 'Pricing', url: '/pages-menu/pricing' },
+      { title: 'About us', url: '/pages-menu/about-us-v1' },
+      { title: 'Service', url: '/pages-menu/service-v1' },
+      { title: 'Blog', url: '/blog/blog-v1' },
     ],
   },
   {
-    title: "Support",
+    title: 'Support',
     links: [
-      { title: "FAQ", url: "/pages-menu/faq" },
-      { title: "Blog", url: "/blog/blog-v1" },
-      { title: "Contact Us", url: "/contact" },
-      { title: "Support", url: "/contact" },
+      { title: 'FAQ', url: '/pages-menu/faq' },
+      { title: 'Blog', url: '/blog/blog-v1' },
+      { title: 'Contact Us', url: '/contact' },
+      { title: 'Support', url: '/contact' },
     ],
   },
   {
-    title: "Products",
+    title: 'Products',
     links: [
-      { title: "Take the tour", url: "/pages-menu/faq" },
-      { title: "Live chat", url: "/pages-menu/faq" },
-      { title: "Self-service", url: "/pages-menu/faq" },
-      { title: "Social", url: "/pages-menu/faq" },
-      { title: "Jano Reviews", url: "/pages-menu/faq" },
+      { title: 'Take the tour', url: '/pages-menu/faq' },
+      { title: 'Live chat', url: '/pages-menu/faq' },
+      { title: 'Self-service', url: '/pages-menu/faq' },
+      { title: 'Social', url: '/pages-menu/faq' },
+      { title: 'Jano Reviews', url: '/pages-menu/faq' },
     ],
   },
 ];

@@ -42,7 +42,7 @@ const Form = () => {
               name="message"
               required="required"
               data-error="Please,leave us a message."
-              defaultValue={""}
+              defaultValue={''}
             />
             <div className="help-block with-errors" />
           </div>
@@ -50,10 +50,7 @@ const Form = () => {
         {/* End .col-12 */}
 
         <div className="col-12">
-          <button
-            type="submit"
-            className="btn-thirteen w-100 fw-500 tran3s text-uppercase"
-          >
+          <button type="submit" className="btn-thirteen w-100 fw-500 tran3s text-uppercase">
             SEND MESSAGE
           </button>
         </div>

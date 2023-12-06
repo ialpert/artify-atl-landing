@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import ModalContent from "./ModalContent";
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import ModalContent from './ModalContent';
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -14,17 +14,15 @@ const Header = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", changeBackground);
+    window.addEventListener('scroll', changeBackground);
     return () => {
-      window.removeEventListener("scroll", changeBackground);
+      window.removeEventListener('scroll', changeBackground);
     };
   }, []);
 
   return (
     <>
-      <header
-        className={`theme-main-menu sticky-menu ${navbar ? "fixed" : ""}`}
-      >
+      <header className={`theme-main-menu sticky-menu ${navbar ? 'fixed' : ''}`}>
         <div className="inner-content position-relative">
           <div className="d-flex align-items-center justify-content-between">
             <div className="logo order-lg-0">
@@ -33,11 +31,7 @@ const Header = () => {
               </Link>
             </div>
             <div className="right-widget">
-              <button
-                className="contact-btn-four fw-500"
-                data-bs-toggle="modal"
-                data-bs-target="#contactModal"
-              >
+              <button className="contact-btn-four fw-500" data-bs-toggle="modal" data-bs-target="#contactModal">
                 <em>Contact</em> <span>Me</span>
                 <i className="bi bi-arrow-up-right" />
               </button>

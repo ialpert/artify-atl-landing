@@ -1,19 +1,19 @@
-import React, { useRef } from "react";
-import Slider from "react-slick";
+import React, { useRef } from 'react';
+import Slider from 'react-slick';
 
 const Testimonial = () => {
   const testimonials = [
     {
       quote:
         "Very easy to set up. I had no experience with hosting before signing up with HostGator but they've made everything seem simple.",
-      author: "Rashed ka.",
-      location: "Italy",
+      author: 'Rashed ka.',
+      location: 'Italy',
     },
     {
       quote:
         "Very easy to set up. I had no experience with hosting before signing up with HostGator but they've made everything seem simple.",
-      author: "Zubayer Hasan",
-      location: "Spain",
+      author: 'Zubayer Hasan',
+      location: 'Spain',
     },
   ];
 
@@ -32,12 +32,9 @@ const Testimonial = () => {
             {testimonials.map((testimonial, index) => (
               <div className="item" key={index}>
                 <div className="feedback-block-six text-center">
-                  <p className="text-white mb-65 lg-mb-50">
-                    {testimonial.quote}
-                  </p>
+                  <p className="text-white mb-65 lg-mb-50">{testimonial.quote}</p>
                   <h4 className="text-white d-inline-block position-relative">
-                    {testimonial.author}{" "}
-                    <span className="fw-light">{testimonial.location}</span>
+                    {testimonial.author} <span className="fw-light">{testimonial.location}</span>
                   </h4>
                 </div>
               </div>
@@ -47,16 +44,10 @@ const Testimonial = () => {
       </div>
 
       <ul className="slider-arrows slick-arrow-four sm-mt-40 d-flex justify-content-center style-none">
-        <li
-          className="prev_s2 slick-arrow tran3s"
-          onClick={() => sliderRef.current.slickPrev()}
-        >
+        <li className="prev_s2 slick-arrow tran3s" onClick={() => sliderRef.current.slickPrev()}>
           <i className="bi bi-arrow-left" />
         </li>
-        <li
-          className="next_s2 slick-arrow tran3s"
-          onClick={() => sliderRef.current.slickNext()}
-        >
+        <li className="next_s2 slick-arrow tran3s" onClick={() => sliderRef.current.slickNext()}>
           <i className="bi bi-arrow-right" />
         </li>
       </ul>

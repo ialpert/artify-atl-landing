@@ -1,9 +1,5 @@
 const FancyFeatures = () => {
-  const items = [
-    "Amazing communication.",
-    "Best trending designing experience.",
-    "Email & Live chat.",
-  ];
+  const items = ['Amazing communication.', 'Best trending designing experience.', 'Email & Live chat.'];
 
   return (
     <div className="row">
@@ -12,10 +8,7 @@ const FancyFeatures = () => {
           <div className="title-style-one">
             <div className="sc-title">
               Over
-              <span
-                className="text-decoration-underline"
-                style={{ color: "#ff733b" }}
-              >
+              <span className="text-decoration-underline" style={{ color: '#ff733b' }}>
                 150,000+ client
               </span>
             </div>
@@ -39,11 +32,7 @@ const FancyFeatures = () => {
 
       <div className="col-lg-6 col-md-10 order-lg-first" data-aos="fade-right">
         <div className="img-meta d-inline-block position-relative md-mt-40">
-          <img
-            src="/images/media/img_40.png"
-            alt="media"
-            className="lazy-img"
-          />
+          <img src="/images/media/img_40.png" alt="media" className="lazy-img" />
         </div>
         {/* /.img-meta */}
       </div>

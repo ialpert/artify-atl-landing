@@ -1,22 +1,18 @@
 const Features2 = () => {
-  const listItems = [
-    "Amazing communication.",
-    "Best trending designing experience.",
-    "Email & Live chat.",
-  ];
+  const listItems = ['Amazing communication.', 'Best trending designing experience.', 'Email & Live chat.'];
 
   const platformButtons = [
     {
-      href: "#",
-      imgSrc: "/images/icon/apple.svg",
-      imgAlt: "media",
-      platform: "App store",
+      href: '#',
+      imgSrc: '/images/icon/apple.svg',
+      imgAlt: 'media',
+      platform: 'App store',
     },
     {
-      href: "#",
-      imgSrc: "/images/icon/playstore.svg",
-      imgAlt: "media",
-      platform: "Google play",
+      href: '#',
+      imgSrc: '/images/icon/playstore.svg',
+      imgAlt: 'media',
+      platform: 'Google play',
     },
   ];
 
@@ -41,15 +37,9 @@ const Features2 = () => {
           <a
             key={index}
             href={button.href}
-            className={`d-flex align-items-center ${
-              button.platform === "App store" ? "ios-button" : "windows-button"
-            }`}
+            className={`d-flex align-items-center ${button.platform === 'App store' ? 'ios-button' : 'windows-button'}`}
           >
-            <img
-              src={button.imgSrc}
-              alt={button.imgAlt}
-              className="lazy-img icon"
-            />
+            <img src={button.imgSrc} alt={button.imgAlt} className="lazy-img icon" />
             <div>
               <span>Download on the</span>
               <strong>{button.platform}</strong>

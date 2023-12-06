@@ -10,23 +10,16 @@ const CallToAction = () => {
         <div className="row">
           <div className="col-xxl-7 col-lg-8 m-auto text-center">
             <div className="title-style-four" data-aos="fade-up">
-              <h2 className="main-title fw-500 text-white m0">
-                Get updated by subscribe to our newsletter
-              </h2>
+              <h2 className="main-title fw-500 text-white m0">Get updated by subscribe to our newsletter</h2>
             </div>
             {/* /.title-style-four */}
-            <p
-              className="text-lg text-white mt-35 mb-75 lg-mt-20 lg-mb-30"
-              data-aos="fade-up"
-            >
+            <p className="text-lg text-white mt-35 mb-75 lg-mt-20 lg-mb-30" data-aos="fade-up">
               Get instant news by subscribe to our daily newsletter
             </p>
             <div className="subscribe-form m-auto" data-aos="fade-up">
               <form className="position-relative" onSubmit={handleSubmit}>
                 <input type="email" placeholder="Email address" required />
-                <button className="tran3s position-absolute fw-500">
-                  Try for free
-                </button>
+                <button className="tran3s position-absolute fw-500">Try for free</button>
               </form>
             </div>
             {/* /.subscribe-form */}

@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import CountUp from "react-countup";
-import { useInView } from "react-intersection-observer";
+import React, { useState } from 'react';
+import CountUp from 'react-countup';
+import { useInView } from 'react-intersection-observer';
 
 const Counter = ({ data }) => {
   const [isInView, setIsInView] = useState(false);
@@ -15,23 +15,14 @@ const Counter = ({ data }) => {
   }
 
   return (
-    <div
-      className="counter-block-five text-center mt-40"
-      data-aos="fade-up"
-      ref={ref}
-    >
+    <div className="counter-block-five text-center mt-40" data-aos="fade-up" ref={ref}>
       <div className="main-count font-recoleta fw-light">
-        {isInView && (
-          <CountUp start={0} end={data.value} duration={2} separator="," />
-        )}
+        {isInView && <CountUp start={0} end={data.value} duration={2} separator="," />}
         {!isInView && data.value}
         {data.symbol}
       </div>
       <p className="fs-18 mb-15">{data.title}</p>
-      <span
-        className="d-block rounded-circle cicrle m-auto"
-        style={{ background: data.color }}
-      />
+      <span className="d-block rounded-circle cicrle m-auto" style={{ background: data.color }} />
     </div>
   );
 };
@@ -39,28 +30,28 @@ const Counter = ({ data }) => {
 const CounterSection = () => {
   const counterData = [
     {
-      title: "Cumulative trading volume",
+      title: 'Cumulative trading volume',
       value: 1,
-      symbol: "b+",
-      color: "#FFC735",
+      symbol: 'b+',
+      color: '#FFC735',
     },
     {
-      title: "Million Insurance Coverage",
+      title: 'Million Insurance Coverage',
       value: 10,
-      symbol: "",
-      color: "#F177FF",
+      symbol: '',
+      color: '#F177FF',
     },
     {
-      title: "Country & Regions",
+      title: 'Country & Regions',
       value: 120,
-      symbol: "+",
-      color: "#00FCFC",
+      symbol: '+',
+      color: '#00FCFC',
     },
     {
-      title: "Successful Projects",
+      title: 'Successful Projects',
       value: 3000,
-      symbol: "k",
-      color: "#9671FF",
+      symbol: 'k',
+      color: '#9671FF',
     },
   ];
 

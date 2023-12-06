@@ -1,5 +1,5 @@
-import React from "react";
-import Slider from "react-slick";
+import React from 'react';
+import Slider from 'react-slick';
 
 const Testimonial = () => {
   const settings = {
@@ -21,22 +21,19 @@ const Testimonial = () => {
 
   const testimonials = [
     {
-      name: "Jubayer Hasan",
-      location: "Texas",
-      feedback:
-        "We’v 9,000 agents around the country, Find agents near your neighborhood.",
+      name: 'Jubayer Hasan',
+      location: 'Texas',
+      feedback: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
     },
     {
-      name: "Rashed Kabir",
-      location: "California",
-      feedback:
-        "We’v 9,000 agents around the country, Find agents near your neighborhood.",
+      name: 'Rashed Kabir',
+      location: 'California',
+      feedback: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
     },
     {
-      name: "Mahfuz Riad",
-      location: "Brazil",
-      feedback:
-        "We’v 9,000 agents around the country, Find agents near your neighborhood.",
+      name: 'Mahfuz Riad',
+      location: 'Brazil',
+      feedback: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
     },
   ];
 
@@ -48,14 +45,9 @@ const Testimonial = () => {
             <div className="icon rounded-circle d-flex align-items-center justify-content-center">
               <img src="/images/icon/icon_42.svg" alt="" />
             </div>
-            <p className="tx-dark mt-35 mb-40 pe-xxl-4">
-              {testimonial.feedback}
-            </p>
+            <p className="tx-dark mt-35 mb-40 pe-xxl-4">{testimonial.feedback}</p>
             <h6 className="tx-dark fs-20">
-              {testimonial.name},
-              <span className="fw-normal opacity-50">
-                {testimonial.location}
-              </span>
+              {testimonial.name},<span className="fw-normal opacity-50">{testimonial.location}</span>
             </h6>
           </div>
           {/* /.feedback-block-twelve */}

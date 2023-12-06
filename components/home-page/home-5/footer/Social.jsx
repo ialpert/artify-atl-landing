@@ -1,8 +1,8 @@
 const Social = () => {
   const socialIcons = [
-    { id: 1, link: "http://facebok.com/", icon: "fab fa-facebook-f" },
-    { id: 2, link: "http://twitter.com/", icon: "fab fa-twitter" },
-    { id: 3, link: "http://linkedin.com/", icon: "fab fa-linkedin-in" },
+    { id: 1, link: 'http://facebok.com/', icon: 'fab fa-facebook-f' },
+    { id: 2, link: 'http://twitter.com/', icon: 'fab fa-twitter' },
+    { id: 3, link: 'http://linkedin.com/', icon: 'fab fa-linkedin-in' },
   ];
 
   return (

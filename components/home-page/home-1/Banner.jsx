@@ -17,8 +17,7 @@ const Banner = () => {
       <div className="d-inline-flex align-items-center">
         <ul className="d-flex style-none rating">{stars}</ul>
         <div className="fs-20 ms-4">
-          <strong className="fw-500 tx-dark">4.8</strong>{" "}
-          <span className="tx-dark opacity-25">(30k Reviews)</span>
+          <strong className="fw-500 tx-dark">4.8</strong> <span className="tx-dark opacity-25">(30k Reviews)</span>
         </div>
       </div>
     </div>

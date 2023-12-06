@@ -41,7 +41,7 @@ const ContactForm = () => {
               name="message"
               required="required"
               data-error="Please,leave us a message."
-              defaultValue={""}
+              defaultValue={''}
             />
             <div className="help-block with-errors" />
           </div>
@@ -49,10 +49,7 @@ const ContactForm = () => {
         {/* End .col-12 */}
 
         <div className="col-12">
-          <button
-            type="submit"
-            className="send-btn ripple-btn w-100 fw-500 tran3s text-uppercase text-white"
-          >
+          <button type="submit" className="send-btn ripple-btn w-100 fw-500 tran3s text-uppercase text-white">
             Send Message
           </button>
         </div>

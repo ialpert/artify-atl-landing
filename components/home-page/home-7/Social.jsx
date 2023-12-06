@@ -1,8 +1,8 @@
 const Social = () => {
   const socialList = [
-    { platform: "facebook-f", url: "#" },
-    { platform: "twitter", url: "#" },
-    { platform: "linkedin", url: "#" },
+    { platform: 'facebook-f', url: '#' },
+    { platform: 'twitter', url: '#' },
+    { platform: 'linkedin', url: '#' },
   ];
 
   return (

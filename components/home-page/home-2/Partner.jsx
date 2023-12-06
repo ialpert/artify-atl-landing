@@ -1,4 +1,4 @@
-import Slider from "react-slick";
+import Slider from 'react-slick';
 
 const Partner = () => {
   var settings = {
@@ -33,13 +33,13 @@ const Partner = () => {
   };
 
   const partnerLogos = [
-    "/images/logo/Plogo-23.png",
-    "/images/logo/Plogo-24.png",
-    "/images/logo/Plogo-25.png",
-    "/images/logo/Plogo-26.png",
-    "/images/logo/Plogo-27.png",
-    "/images/logo/Plogo-24.png",
-    "/images/logo/Plogo-26.png",
+    '/images/logo/Plogo-23.png',
+    '/images/logo/Plogo-24.png',
+    '/images/logo/Plogo-25.png',
+    '/images/logo/Plogo-26.png',
+    '/images/logo/Plogo-27.png',
+    '/images/logo/Plogo-24.png',
+    '/images/logo/Plogo-26.png',
   ];
 
   return (

@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react';
 
 const faqData = [
   {
     id: 1,
-    question: "Lowest Price.",
+    question: 'Lowest Price.',
     answer:
-      "It only takes 5 minutes. Set-up is smooth and simple, with fully customisable page design to reflect your brand.",
+      'It only takes 5 minutes. Set-up is smooth and simple, with fully customisable page design to reflect your brand.',
   },
   {
     id: 2,
-    question: "Boost-up Skills",
+    question: 'Boost-up Skills',
     answer:
-      "It only takes 5 minutes. Set-up is smooth and simple, with fully customisable page design to reflect your brand.",
+      'It only takes 5 minutes. Set-up is smooth and simple, with fully customisable page design to reflect your brand.',
   },
   {
     id: 3,
-    question: "Learn Language",
+    question: 'Learn Language',
     answer:
-      "It only takes 5 minutes. Set-up is smooth and simple, with fully customisable page design to reflect your brand.",
+      'It only takes 5 minutes. Set-up is smooth and simple, with fully customisable page design to reflect your brand.',
   },
 ];
 
@@ -32,7 +32,7 @@ const Faq = () => {
               type="button"
               data-bs-toggle="collapse"
               data-bs-target={`#collapse${item.id}`}
-              aria-expanded={index === 0 ? "true" : "false"}
+              aria-expanded={index === 0 ? 'true' : 'false'}
               aria-controls={`collapse${item.id}`}
             >
               {item.question}
@@ -40,9 +40,7 @@ const Faq = () => {
           </div>
           <div
             id={`collapse${item.id}`}
-            className={`accordion-collapse collapse${
-              index === 0 ? " show" : ""
-            }`}
+            className={`accordion-collapse collapse${index === 0 ? ' show' : ''}`}
             aria-labelledby={`heading${item.id}`}
             data-bs-parent="#accordionOne"
           >

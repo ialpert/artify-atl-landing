@@ -1,11 +1,11 @@
-import Link from "next/link";
-import { useState } from "react";
-import ModalVideo from "react-modal-video";
-import blogPosts from "../../../data/blog";
+import Link from 'next/link';
+import { useState } from 'react';
+import ModalVideo from 'react-modal-video';
+import blogPosts from '../../../data/blog';
 
 const Blog = () => {
   const [isOpen, setOpen] = useState(false);
-  const [videoId, setVideoId] = useState("");
+  const [videoId, setVideoId] = useState('');
   const openModal = (id) => {
     setVideoId(id);
     setOpen(true);
@@ -18,7 +18,7 @@ const Blog = () => {
         isOpen={isOpen}
         videoId={videoId}
         onClose={() => {
-          setVideoId("");
+          setVideoId('');
           setOpen(false);
         }}
       />
@@ -34,17 +34,11 @@ const Blog = () => {
               <img src={post.logo} alt="logo" className="lazy-img" />
             </div>
             <div className="post-data mt-110 lg-mt-50">
-              <div
-                className="icon"
-                onClick={() => openModal(post.videoId)}
-                role="button"
-              >
+              <div className="icon" onClick={() => openModal(post.videoId)} role="button">
                 <img src={post.icon} alt="logo" className="lazy-img" />
               </div>
               <Link href={`/blog/${post.id}`}>
-                <h4 className="tran3s blog-title text-white mt-20 mb-55 lg-mb-30">
-                  {post.title}
-                </h4>
+                <h4 className="tran3s blog-title text-white mt-20 mb-55 lg-mb-30">{post.title}</h4>
               </Link>
               <Link
                 href={`/blog/${post.id}`}

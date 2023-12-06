@@ -1,20 +1,20 @@
 const CallToAction = () => {
   const platformButtons = [
     {
-      href: "#",
-      className: "ios-button",
-      icon: "/images/icon/icon_89.svg",
-      text1: "Download on the",
-      text2: "App store",
-      aos: "fade-right",
+      href: '#',
+      className: 'ios-button',
+      icon: '/images/icon/icon_89.svg',
+      text1: 'Download on the',
+      text2: 'App store',
+      aos: 'fade-right',
     },
     {
-      href: "#",
-      className: "windows-button",
-      icon: "/images/icon/playstore.svg",
-      text1: "Get it on",
-      text2: "Google play",
-      aos: "fade-left",
+      href: '#',
+      className: 'windows-button',
+      icon: '/images/icon/playstore.svg',
+      text1: 'Get it on',
+      text2: 'Google play',
+      aos: 'fade-left',
     },
   ];
   return (
@@ -25,10 +25,7 @@ const CallToAction = () => {
         </h2>
       </div>
       {/* /.title-style-nine */}
-      <p
-        className="text-white opacity-75 text-center text-lg mt-40 mb-40 lg-mt-20"
-        data-aos="fade-up"
-      >
+      <p className="text-white opacity-75 text-center text-lg mt-40 mb-40 lg-mt-20" data-aos="fade-up">
         Download our mobile app and start trading &amp; earn money
       </p>
       <div className="d-sm-flex align-items-center justify-content-center platform-button-group-two">

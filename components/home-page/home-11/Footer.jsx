@@ -1,38 +1,38 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Footer = () => {
   const footerItems = [
     {
-      title: "Links",
+      title: 'Links',
       links: [
-        { label: "Home", url: "/" },
-        { label: "Pricing", url: "/pages-menu/pricing" },
-        { label: "About us", url: "/pages-menu/about-us-v1" },
-        { label: "Service", url: "/pages-menu/service-v1" },
-        { label: "Blog", url: "/blog/blog-v1" },
+        { label: 'Home', url: '/' },
+        { label: 'Pricing', url: '/pages-menu/pricing' },
+        { label: 'About us', url: '/pages-menu/about-us-v1' },
+        { label: 'Service', url: '/pages-menu/service-v1' },
+        { label: 'Blog', url: '/blog/blog-v1' },
       ],
-      className: "col-lg-2 col-md-3 col-sm-6 mb-30",
+      className: 'col-lg-2 col-md-3 col-sm-6 mb-30',
     },
     {
-      title: "Support",
+      title: 'Support',
       links: [
-        { label: "FAQ", url: "/pages-menu/faq" },
-        { label: "Blog", url: "/blog/blog-v1" },
-        { label: "Contact Us", url: "/contact" },
-        { label: "Support", url: "/contact" },
+        { label: 'FAQ', url: '/pages-menu/faq' },
+        { label: 'Blog', url: '/blog/blog-v1' },
+        { label: 'Contact Us', url: '/contact' },
+        { label: 'Support', url: '/contact' },
       ],
-      className: "col-lg-2 col-md-3 col-sm-6 mb-30",
+      className: 'col-lg-2 col-md-3 col-sm-6 mb-30',
     },
     {
-      title: "Products",
+      title: 'Products',
       links: [
-        { label: "Take the tour", url: "/pages-menu/faq" },
-        { label: "Live chat", url: "/pages-menu/faq" },
-        { label: "Self-service", url: "/pages-menu/faq" },
-        { label: "Social", url: "/pages-menu/faq" },
-        { label: "Jano Reviews", url: "/pages-menu/faq" },
+        { label: 'Take the tour', url: '/pages-menu/faq' },
+        { label: 'Live chat', url: '/pages-menu/faq' },
+        { label: 'Self-service', url: '/pages-menu/faq' },
+        { label: 'Social', url: '/pages-menu/faq' },
+        { label: 'Jano Reviews', url: '/pages-menu/faq' },
       ],
-      className: "col-lg-2 col-md-3 col-sm-6 mb-30",
+      className: 'col-lg-2 col-md-3 col-sm-6 mb-30',
     },
   ];
 

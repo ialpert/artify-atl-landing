@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 const LoginForm = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -13,11 +13,7 @@ const LoginForm = () => {
   };
 
   return (
-    <form
-      action="#"
-      className="user-data-form mt-40 lg-mt-30"
-      onSubmit={handleSubmit}
-    >
+    <form action="#" className="user-data-form mt-40 lg-mt-30" onSubmit={handleSubmit}>
       <div className="row">
         <div className="col-12">
           <div className="input-group-meta mb-30">
@@ -31,7 +27,7 @@ const LoginForm = () => {
           <div className="input-group-meta mb-25">
             <label>Password</label>
             <input
-              type={showPassword ? "text" : "password"}
+              type={showPassword ? 'text' : 'password'}
               placeholder="Enter Password"
               className="pass_log_id"
               required
@@ -66,9 +62,7 @@ const LoginForm = () => {
         {/* End .col-12 */}
 
         <div className="col-12">
-          <button className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase mt-30">
-            Login
-          </button>
+          <button className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase mt-30">Login</button>
         </div>
         {/* End .col-12 */}
       </div>

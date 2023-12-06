@@ -1,31 +1,22 @@
-import Link from "next/link";
-import { navItems } from "../../../data/menu";
+import Link from 'next/link';
+import { navItems } from '../../../data/menu';
 
 const Sidebar = () => {
   const socialIcons = [
-    { icon: "fab fa-facebook-f", url: "#" },
-    { icon: "fab fa-twitter", url: "#" },
-    { icon: "fab fa-linkedin-in", url: "#" },
+    { icon: 'fab fa-facebook-f', url: '#' },
+    { icon: 'fab fa-twitter', url: '#' },
+    { icon: 'fab fa-linkedin-in', url: '#' },
   ];
 
   return (
-    <div
-      className="offcanvas offcanvas-end sidebar-nav d-flex flex-column"
-      tabIndex={-1}
-      id="offcanvasRight"
-    >
+    <div className="offcanvas offcanvas-end sidebar-nav d-flex flex-column" tabIndex={-1} id="offcanvasRight">
       <div className="offcanvas-header">
         <div className="logo">
           <Link href="/" className="d-block">
             <img src="/images/logo/logo_04.png" alt="" width={90} />
           </Link>
         </div>
-        <button
-          type="button"
-          className="close-btn tran3s"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        >
+        <button type="button" className="close-btn tran3s" data-bs-dismiss="offcanvas" aria-label="Close">
           <i className="bi bi-x-lg" />
         </button>
       </div>
@@ -77,15 +68,15 @@ const Sidebar = () => {
       </ul>
 
       <p className="pt-10 fs-15">
-        Copyright © {new Date().getFullYear()}{" "}
+        Copyright © {new Date().getFullYear()}{' '}
         <a
-          style={{ color: "inherit" }}
+          style={{ color: 'inherit' }}
           href="https://themeforest.net/user/ib-themes"
           target="_blank"
           rel="noopener noreferrer"
         >
           ib-themes
-        </a>{" "}
+        </a>{' '}
         inc.
       </p>
     </div>

@@ -1,19 +1,13 @@
-import Image from "next/image";
-import { useState } from "react";
-import ModalVideo from "react-modal-video";
+import Image from 'next/image';
+import { useState } from 'react';
+import ModalVideo from 'react-modal-video';
 
 const ImgGallery = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
     <>
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="rDYdeq3JW_E"
-        onClose={() => setOpen(false)}
-      />
+      <ModalVideo channel="youtube" autoplay isOpen={isOpen} videoId="rDYdeq3JW_E" onClose={() => setOpen(false)} />
 
       <div className="img-gallery md-mt-60 ">
         <div className="row align-items-center" data-aos="fade-right">
@@ -52,16 +46,8 @@ const ImgGallery = () => {
           <i className="fas fa-play" />
         </button>
 
-        <img
-          src="/images/shape/shape_165.svg"
-          alt="shape"
-          className="lazy-img shapes shape-one"
-        />
-        <img
-          src="/images/shape/shape_163.svg"
-          alt="shape"
-          className="lazy-img shapes shape-two"
-        />
+        <img src="/images/shape/shape_165.svg" alt="shape" className="lazy-img shapes shape-one" />
+        <img src="/images/shape/shape_163.svg" alt="shape" className="lazy-img shapes shape-two" />
         <div className="shapes shape-three" />
       </div>
     </>

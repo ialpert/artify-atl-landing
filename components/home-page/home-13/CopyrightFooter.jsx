@@ -1,28 +1,28 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const links = [
   {
-    title: "Privacy & Terms.",
-    href: "/faq",
+    title: 'Privacy & Terms.',
+    href: '/faq',
   },
   {
-    title: "Contact Us",
-    href: "/contact",
+    title: 'Contact Us',
+    href: '/contact',
   },
 ];
 
 const icons = [
   {
-    icon: "fab fa-facebook-f",
-    href: "https://www.facebook.com/",
+    icon: 'fab fa-facebook-f',
+    href: 'https://www.facebook.com/',
   },
   {
-    icon: "fab fa-twitter",
-    href: "https://www.twitter.com/",
+    icon: 'fab fa-twitter',
+    href: 'https://www.twitter.com/',
   },
   {
-    icon: "fab fa-linkedin-in",
-    href: "https://www.linkedin.com/",
+    icon: 'fab fa-linkedin-in',
+    href: 'https://www.linkedin.com/',
   },
 ];
 
@@ -65,15 +65,15 @@ const CopyrightFooter = () => {
           </div>
           <div className="col-lg-4 order-lg-1 mt-15">
             <p className="copyright text-center m0">
-              Copyright © {new Date().getFullYear()}{" "}
+              Copyright © {new Date().getFullYear()}{' '}
               <a
-                style={{ color: "inherit" }}
+                style={{ color: 'inherit' }}
                 href="https://themeforest.net/user/ib-themes"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 ib-themes
-              </a>{" "}
+              </a>{' '}
               inc.
             </p>
           </div>

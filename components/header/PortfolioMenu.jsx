@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
 
 const navItems = [
-  { title: "About me", href: "#s1" },
-  { title: "Services", href: "#s2" },
-  { title: "Portfolio", href: "#s3" },
-  { title: "Skill", href: "#s4" },
-  { title: "Contact", href: "#s5" },
+  { title: 'About me', href: '#s1' },
+  { title: 'Services', href: '#s2' },
+  { title: 'Portfolio', href: '#s3' },
+  { title: 'Skill', href: '#s4' },
+  { title: 'Contact', href: '#s5' },
 ];
 
 const PortfolioMenu = () => {
@@ -35,19 +35,14 @@ const PortfolioMenu = () => {
           <li className="d-block d-lg-none">
             <div className="logo">
               <Link href="/" className="d-block">
-                <Image
-                  src="/images/logo/logo_04.png"
-                  alt="logo"
-                  width={90}
-                  height={25}
-                />
+                <Image src="/images/logo/logo_04.png" alt="logo" width={90} height={25} />
               </Link>
             </div>
           </li>
           {navItems.map((navItem, i) => (
             <li key={i} className="nav-item">
               <a
-                className={`nav-link ${activeLink === i ? "active" : ""}`}
+                className={`nav-link ${activeLink === i ? 'active' : ''}`}
                 href={navItem.href}
                 onClick={() => handleLinkClick(i)}
               >

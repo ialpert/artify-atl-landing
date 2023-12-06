@@ -1,54 +1,49 @@
-import React, { useRef } from "react";
-import Slider from "react-slick";
+import React, { useRef } from 'react';
+import Slider from 'react-slick';
 
 const Testimonial = () => {
   const sliderRef = useRef(null);
 
   const testimonialData = [
     {
-      background: "#825EFF",
-      imgSrc: "/images/icon/icon_61.svg",
-      content:
-        "We have 9,000 agents around the country, Find agents near your neighborhood.",
-      avatarSrc: "/images/media/img_18.jpg",
-      name: "Martin Jonas",
-      location: "USA",
+      background: '#825EFF',
+      imgSrc: '/images/icon/icon_61.svg',
+      content: 'We have 9,000 agents around the country, Find agents near your neighborhood.',
+      avatarSrc: '/images/media/img_18.jpg',
+      name: 'Martin Jonas',
+      location: 'USA',
     },
     {
-      background: "#11D09F",
-      imgSrc: "/images/icon/icon_61.svg",
-      content:
-        "We have 9,000 agents around the country, Find agents near your neighborhood.",
-      avatarSrc: "/images/media/img_19.jpg",
-      name: "Martin Jonas",
-      location: "USA",
+      background: '#11D09F',
+      imgSrc: '/images/icon/icon_61.svg',
+      content: 'We have 9,000 agents around the country, Find agents near your neighborhood.',
+      avatarSrc: '/images/media/img_19.jpg',
+      name: 'Martin Jonas',
+      location: 'USA',
     },
     {
-      background: "#FFB900",
-      imgSrc: "/images/icon/icon_61.svg",
-      content:
-        "We have 9,000 agents around the country, Find agents near your neighborhood.",
-      avatarSrc: "/images/media/img_20.jpg",
-      name: "Martin Jonas",
-      location: "USA",
+      background: '#FFB900',
+      imgSrc: '/images/icon/icon_61.svg',
+      content: 'We have 9,000 agents around the country, Find agents near your neighborhood.',
+      avatarSrc: '/images/media/img_20.jpg',
+      name: 'Martin Jonas',
+      location: 'USA',
     },
     {
-      background: "#FF5E5E",
-      imgSrc: "/images/icon/icon_61.svg",
-      content:
-        "We have 9,000 agents around the country, Find agents near your neighborhood.",
-      avatarSrc: "/images/media/img_21.jpg",
-      name: "Martin Jonas",
-      location: "USA",
+      background: '#FF5E5E',
+      imgSrc: '/images/icon/icon_61.svg',
+      content: 'We have 9,000 agents around the country, Find agents near your neighborhood.',
+      avatarSrc: '/images/media/img_21.jpg',
+      name: 'Martin Jonas',
+      location: 'USA',
     },
     {
-      background: "#EF4DD5",
-      imgSrc: "/images/icon/icon_61.svg",
-      content:
-        "We have 9,000 agents around the country, Find agents near your neighborhood.",
-      avatarSrc: "/images/media/img_19.jpg",
-      name: "Martin Jonas",
-      location: "USA",
+      background: '#EF4DD5',
+      imgSrc: '/images/icon/icon_61.svg',
+      content: 'We have 9,000 agents around the country, Find agents near your neighborhood.',
+      avatarSrc: '/images/media/img_19.jpg',
+      name: 'Martin Jonas',
+      location: 'USA',
     },
   ];
 
@@ -97,16 +92,10 @@ const Testimonial = () => {
                 </div>
                 <p className="tx-dark mt-20 pb-30">{testimonial.content}</p>
                 <div className="d-flex align-items-center">
-                  <img
-                    src={testimonial.avatarSrc}
-                    alt="img"
-                    className="avatar rounded-circle"
-                  />
+                  <img src={testimonial.avatarSrc} alt="img" className="avatar rounded-circle" />
                   <h6 className="name fs-20 fw-500 m0 ps-4">
                     {testimonial.name}
-                    <span className="d-block fw-normal">
-                      {testimonial.location}
-                    </span>
+                    <span className="d-block fw-normal">{testimonial.location}</span>
                   </h6>
                 </div>
               </div>
@@ -115,20 +104,11 @@ const Testimonial = () => {
         </Slider>
       </div>
 
-      <ul
-        className="slider-arrows slick-arrow-three d-flex justify-content-center style-none"
-        data-aos="fade-left"
-      >
-        <li
-          className="prev_f2 slick-arrow rounded-circle text-center fs-20 tran3s"
-          onClick={handlePrevClick}
-        >
+      <ul className="slider-arrows slick-arrow-three d-flex justify-content-center style-none" data-aos="fade-left">
+        <li className="prev_f2 slick-arrow rounded-circle text-center fs-20 tran3s" onClick={handlePrevClick}>
           <i className="bi bi-chevron-left" />
         </li>
-        <li
-          className="next_f2 slick-arrow rounded-circle text-center fs-20 tran3s"
-          onClick={handleNextClick}
-        >
+        <li className="next_f2 slick-arrow rounded-circle text-center fs-20 tran3s" onClick={handleNextClick}>
           <i className="bi bi-chevron-right" />
         </li>
       </ul>

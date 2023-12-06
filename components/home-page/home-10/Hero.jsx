@@ -1,5 +1,5 @@
-import HeroSubscribe from "./HeroSubscribe";
-import Illustration from "./Illustration";
+import HeroSubscribe from './HeroSubscribe';
+import Illustration from './Illustration';
 
 const Hero = () => {
   return (
@@ -18,9 +18,7 @@ const Hero = () => {
 
           <div className="pr-info fw-500 fs-20 tx-dark mt-35">
             Over
-            <span className="fw-bold text-decoration-underline">
-              150,000+ client
-            </span>
+            <span className="fw-bold text-decoration-underline">150,000+ client</span>
             all over the world.
           </div>
         </div>

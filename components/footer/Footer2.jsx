@@ -1,31 +1,31 @@
 const columns = [
   {
-    title: "Links",
+    title: 'Links',
     links: [
-      { label: "Home", url: "/" },
-      { label: "Pricing", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Service", url: "/" },
-      { label: "Blog", url: "/" },
+      { label: 'Home', url: '/' },
+      { label: 'Pricing', url: '/' },
+      { label: 'About us', url: '/' },
+      { label: 'Service', url: '/' },
+      { label: 'Blog', url: '/' },
     ],
   },
   {
-    title: "Support",
+    title: 'Support',
     links: [
-      { label: "Item Support", url: "/" },
-      { label: "Forum", url: "/" },
-      { label: "Report Abuse", url: "/" },
-      { label: "Live", url: "/" },
+      { label: 'Item Support', url: '/' },
+      { label: 'Forum', url: '/' },
+      { label: 'Report Abuse', url: '/' },
+      { label: 'Live', url: '/' },
     ],
   },
   {
-    title: "Products",
+    title: 'Products',
     links: [
-      { label: "Web hosting", url: "/" },
-      { label: "Cloud hosting", url: "/" },
-      { label: "WordPress hosting", url: "/" },
-      { label: "VPS hosting", url: "/" },
-      { label: "Dedicated hosting", url: "/" },
+      { label: 'Web hosting', url: '/' },
+      { label: 'Cloud hosting', url: '/' },
+      { label: 'WordPress hosting', url: '/' },
+      { label: 'VPS hosting', url: '/' },
+      { label: 'Dedicated hosting', url: '/' },
     ],
   },
 ];

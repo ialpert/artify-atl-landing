@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Address from "./Address";
-import FooterMenu from "./FooterMenu";
-import Social from "./Social";
+import Link from 'next/link';
+import Address from './Address';
+import FooterMenu from './FooterMenu';
+import Social from './Social';
 
 const index = () => {
   const currentYear = new Date().getFullYear();
@@ -27,18 +27,12 @@ const index = () => {
             <Address />
           </div>
           {/* End .row */}
-          <p className="copyright text-center pt-30 m0">
-            © 2010 - {currentYear} jano inc.
-          </p>
+          <p className="copyright text-center pt-30 m0">© 2010 - {currentYear} jano inc.</p>
         </div>
         {/* /.inner-wrapper */}
       </div>
       {/* End .container */}
-      <img
-        src="/images/shape/shape_170.svg"
-        alt="shape"
-        className="lazy-img shapes shape-one"
-      />
+      <img src="/images/shape/shape_170.svg" alt="shape" className="lazy-img shapes shape-one" />
     </div>
   );
 };

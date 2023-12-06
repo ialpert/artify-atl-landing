@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 const Form = () => {
-  const [inputValue, setInputValue] = useState("");
-  const [selectedOption, setSelectedOption] = useState(".com");
+  const [inputValue, setInputValue] = useState('');
+  const [selectedOption, setSelectedOption] = useState('.com');
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
@@ -38,10 +38,7 @@ const Form = () => {
         {/* /.select-wrapper */}
       </div>
       {/* /.input-wrapper */}
-      <button
-        type="submit"
-        className="search-btn text-uppercase text-white fw-500 fs-18 tran3s"
-      >
+      <button type="submit" className="search-btn text-uppercase text-white fw-500 fs-18 tran3s">
         SEARCH
       </button>
     </form>

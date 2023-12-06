@@ -6,12 +6,7 @@ const ModalContent = () => {
   return (
     <div className="modal-content">
       <div className="modal-header">
-        <button
-          type="button"
-          className="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        />
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
       </div>
 
       <div className="modal-body p0">
@@ -57,7 +52,7 @@ const ModalContent = () => {
                           name="message"
                           required="required"
                           data-error="Please,leave us a message."
-                          defaultValue={""}
+                          defaultValue={''}
                         />
                         <div className="help-block with-errors" />
                       </div>
@@ -65,10 +60,7 @@ const ModalContent = () => {
                     {/* End .col-12 */}
 
                     <div className="col-12">
-                      <button
-                        type="submit"
-                        className="btn-twentyOne fw-500 tran3s d-block"
-                      >
+                      <button type="submit" className="btn-twentyOne fw-500 tran3s d-block">
                         Send Message
                       </button>
                     </div>

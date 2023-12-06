@@ -1,30 +1,30 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Services2 = () => {
   const services = [
     {
-      icon: "/images/icon/icon_09.svg",
-      title: "Design & Devlopment",
+      icon: '/images/icon/icon_09.svg',
+      title: 'Design & Devlopment',
       delay: 100,
     },
     {
-      icon: "/images/icon/icon_52.svg",
-      title: "Content writing & Affiliate",
+      icon: '/images/icon/icon_52.svg',
+      title: 'Content writing & Affiliate',
       delay: 200,
     },
     {
-      icon: "/images/icon/icon_53.svg",
-      title: "Design & Devlopment",
+      icon: '/images/icon/icon_53.svg',
+      title: 'Design & Devlopment',
       delay: 100,
     },
     {
-      icon: "/images/icon/icon_54.svg",
-      title: "SEO & Social marketing",
+      icon: '/images/icon/icon_54.svg',
+      title: 'SEO & Social marketing',
       delay: 200,
     },
     {
-      icon: "/images/icon/icon_55.svg",
-      title: "Pay per click",
+      icon: '/images/icon/icon_55.svg',
+      title: 'Pay per click',
       delay: 300,
     },
   ];
@@ -42,26 +42,14 @@ const Services2 = () => {
       {/* End .col-lg-5 */}
 
       {services.map((service, index) => (
-        <div
-          key={index}
-          className={`col-lg-3 col-sm-6 d-flex mt-40`}
-          data-aos="fade-up"
-          data-aos-delay={service.delay}
-        >
+        <div key={index} className={`col-lg-3 col-sm-6 d-flex mt-40`} data-aos="fade-up" data-aos-delay={service.delay}>
           <div className="card-style-ten d-flex flex-column bg-white pe-3 ps-3 pe-xl-5 ps-xl-5 pt-60 pb-45 lg-pt-40 lg-pb-30">
             <div className="icon d-flex align-items-end">
               <img src={service.icon} alt="icon" className="lazy-img" />
             </div>
             <h4 className="fw-500 mt-20 mb-50">{service.title}</h4>
-            <Link
-              href="/pages-menu/service-details"
-              className="read-btn mt-auto tran3s"
-            >
-              <img
-                src="/images/icon/icon_12.svg"
-                alt="icon"
-                className="lazy-img"
-              />
+            <Link href="/pages-menu/service-details" className="read-btn mt-auto tran3s">
+              <img src="/images/icon/icon_12.svg" alt="icon" className="lazy-img" />
             </Link>
           </div>
           {/* /.card-style-ten */}
@@ -74,7 +62,7 @@ const Services2 = () => {
         data-aos-delay="400"
       >
         <div className="block">
-          <div className="fs-15 fw-500" style={{ color: "#FF7228" }}>
+          <div className="fs-15 fw-500" style={{ color: '#FF7228' }}>
             Confusion?
           </div>
           <h4 className="fw-normal">Send message for info.</h4>

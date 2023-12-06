@@ -1,15 +1,13 @@
-import ModalVideo from "react-modal-video";
-import { Gallery, Item } from "react-photoswipe-gallery";
-import "photoswipe/dist/photoswipe.css";
-import { useState } from "react";
-import Image from "next/image";
-import portfolioItems from "../../../data/portfolio";
-import Link from "next/link";
+import ModalVideo from 'react-modal-video';
+import { Gallery, Item } from 'react-photoswipe-gallery';
+import 'photoswipe/dist/photoswipe.css';
+import { useState } from 'react';
+import Image from 'next/image';
+import portfolioItems from '../../../data/portfolio';
+import Link from 'next/link';
 
 const Portfolio = () => {
-  const [isOpen, setOpen] = useState(
-    new Array(portfolioItems.length).fill(false)
-  );
+  const [isOpen, setOpen] = useState(new Array(portfolioItems.length).fill(false));
   return (
     <>
       <Gallery>
@@ -39,12 +37,7 @@ const Portfolio = () => {
                 )}
 
                 {item.zoomImgSrc && (
-                  <Item
-                    original={item.imgSrc}
-                    thumbnail={item.imgSrc}
-                    width={1320}
-                    height={611}
-                  >
+                  <Item original={item.imgSrc} thumbnail={item.imgSrc} width={1320} height={611}>
                     {({ ref, open }) => (
                       <div
                         role="button"
@@ -72,7 +65,7 @@ const Portfolio = () => {
                 {/* /.caption */}
               </div>
             </div>
-            {/* /.portfolio-block-two */}{" "}
+            {/* /.portfolio-block-two */}{' '}
             {item.videoUrl && (
               <ModalVideo
                 channel="youtube"

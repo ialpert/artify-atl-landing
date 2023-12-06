@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const ContactForm2 = () => {
   return (
@@ -10,12 +10,7 @@ const ContactForm2 = () => {
             <label className="d-block" htmlFor>
               Name*
             </label>
-            <input
-              type="text"
-              placeholder="Rashed Kabir"
-              name="name"
-              required="required"
-            />
+            <input type="text" placeholder="Rashed Kabir" name="name" required="required" />
             <div className="help-block with-errors" />
           </div>
         </div>
@@ -24,30 +19,18 @@ const ContactForm2 = () => {
             <label className="d-block" htmlFor>
               Email*
             </label>
-            <input
-              type="email"
-              placeholder="demo@domain.com"
-              name="email"
-              required="required"
-            />
+            <input type="email" placeholder="demo@domain.com" name="email" required="required" />
             <div className="help-block with-errors" />
           </div>
         </div>
         <div className="col-12">
           <div className="input-group-meta form-group mb-30">
-            <textarea
-              placeholder="Your message*"
-              name="message"
-              required="required"
-              defaultValue={""}
-            />
+            <textarea placeholder="Your message*" name="message" required="required" defaultValue={''} />
             <div className="help-block with-errors" />
           </div>
         </div>
         <div className="col-12">
-          <button className="btn-one fw-500 w-100 text-uppercase fs-14 d-block">
-            Send Message
-          </button>
+          <button className="btn-one fw-500 w-100 text-uppercase fs-14 d-block">Send Message</button>
         </div>
       </div>
     </form>

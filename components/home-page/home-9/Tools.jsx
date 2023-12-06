@@ -1,12 +1,12 @@
 const Tools = () => {
   const toolNames = [
-    "Adobe Photoshop",
-    "Adobe XD",
-    "Sketch App",
-    "Adobe Premier",
-    "Illustrator",
-    "WordPress Dev",
-    "Figma",
+    'Adobe Photoshop',
+    'Adobe XD',
+    'Sketch App',
+    'Adobe Premier',
+    'Illustrator',
+    'WordPress Dev',
+    'Figma',
   ];
 
   return (

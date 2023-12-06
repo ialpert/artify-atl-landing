@@ -1,12 +1,12 @@
-import Link from "next/link";
-import { useState } from "react";
+import Link from 'next/link';
+import { useState } from 'react';
 
 const navLinks = [
-  { label: "About", link: "/about-v1" },
-  { label: "Blog", link: "/blog-v1" },
-  { label: "Contact", link: "/contact" },
-  { label: "Privacy", link: "/faq" },
-  { label: "Policy", link: "/faq" },
+  { label: 'About', link: '/about-v1' },
+  { label: 'Blog', link: '/blog-v1' },
+  { label: 'Contact', link: '/contact' },
+  { label: 'Privacy', link: '/faq' },
+  { label: 'Policy', link: '/faq' },
 ];
 
 const getCurrentYear = () => {
@@ -25,9 +25,7 @@ const Copyright = () => {
           </li>
         ))}
       </ul>
-      <p className="copyright text-center mb-15 text-white order-md-first">
-        © 20022 - {year} jano inc.
-      </p>
+      <p className="copyright text-center mb-15 text-white order-md-first">© 20022 - {year} jano inc.</p>
     </div>
   );
 };

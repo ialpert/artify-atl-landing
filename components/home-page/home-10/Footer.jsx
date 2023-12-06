@@ -1,28 +1,28 @@
-import Link from "next/link";
-import Social from "./Social";
+import Link from 'next/link';
+import Social from './Social';
 
 const Footer = () => {
   const footerLinks = [
     {
-      title: "Links",
+      title: 'Links',
       links: [
-        { label: "Home", href: "/" },
-        { label: "Pricing", href: "/pages-menu/pricing" },
-        { label: "About us", href: "/pages-menu/about-us-v1" },
-        { label: "Service", href: "/pages-menu/service-v1" },
-        { label: "Blog", href: "/blog/blog-v1" },
+        { label: 'Home', href: '/' },
+        { label: 'Pricing', href: '/pages-menu/pricing' },
+        { label: 'About us', href: '/pages-menu/about-us-v1' },
+        { label: 'Service', href: '/pages-menu/service-v1' },
+        { label: 'Blog', href: '/blog/blog-v1' },
       ],
-      classes: "col-lg-2 col-sm-4 ms-auto mb-30",
+      classes: 'col-lg-2 col-sm-4 ms-auto mb-30',
     },
     {
-      title: "Help & Support",
+      title: 'Help & Support',
       links: [
-        { label: "FAQ", href: "/pages-menu/faq" },
-        { label: "Blog", href: "/blog/blog-v1" },
-        { label: "Contact Us", href: "/contact" },
-        { label: "Support", href: "/contact" },
+        { label: 'FAQ', href: '/pages-menu/faq' },
+        { label: 'Blog', href: '/blog/blog-v1' },
+        { label: 'Contact Us', href: '/contact' },
+        { label: 'Support', href: '/contact' },
       ],
-      classes: "col-lg-3 col-sm-4 mb-30",
+      classes: 'col-lg-3 col-sm-4 mb-30',
     },
   ];
 
@@ -34,11 +34,7 @@ const Footer = () => {
             <img src="/images/logo/logo_01.png" alt="" width={95} />
           </Link>
         </div>
-        <img
-          src="/images/shape/shape_24.svg"
-          alt="shape"
-          className="mt-60 d-none d-lg-block"
-        />
+        <img src="/images/shape/shape_24.svg" alt="shape" className="mt-60 d-none d-lg-block" />
       </div>
       {/* End .col-xl-3 */}
 
@@ -58,9 +54,7 @@ const Footer = () => {
 
       <div className="col-xl-3 col-sm-4 mb-30">
         <h5 className="footer-title tx-dark fw-500">Our Address</h5>
-        <p className="fs-17">
-          2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states.
-        </p>
+        <p className="fs-17">2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states.</p>
         <a href="mailto:januinc@company.com" className="email tran3s fs-17">
           januinc@company.com
         </a>

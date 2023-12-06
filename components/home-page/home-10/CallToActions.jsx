@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Form from "./Form";
+import Link from 'next/link';
+import Form from './Form';
 
 const CallToActions = () => {
   return (
@@ -13,9 +13,7 @@ const CallToActions = () => {
                 <div className="col-lg-6">
                   <div className="title-style-two">
                     <div className="sc-title fw-500 ">Subscirbe Now</div>
-                    <h4 className="main-title fw-bold tx-dark">
-                      New user? Start your free trial now.
-                    </h4>
+                    <h4 className="main-title fw-bold tx-dark">New user? Start your free trial now.</h4>
                   </div>
                   {/* /.title-style-two */}
                 </div>
@@ -25,7 +23,7 @@ const CallToActions = () => {
                   <div className="subscribe-form">
                     <Form />
                     <p className="m0 pt-10">
-                      Already a member?{" "}
+                      Already a member?{' '}
                       <Link href="/login" className="tx-dark">
                         Sign in.
                       </Link>

@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
+    name: '',
+    email: '',
+    message: '',
   });
 
   const handleChange = (event) => {
@@ -70,10 +70,7 @@ const ContactForm = () => {
         {/* End .col-12 */}
 
         <div className="col-12">
-          <button
-            type="submit"
-            className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase"
-          >
+          <button type="submit" className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase">
             Count me in
           </button>
         </div>

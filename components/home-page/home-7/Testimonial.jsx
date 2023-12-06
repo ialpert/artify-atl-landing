@@ -1,46 +1,41 @@
-import React from "react";
-import Slider from "react-slick";
+import React from 'react';
+import Slider from 'react-slick';
 
 const items = [
   {
-    name: "Martin Jonas",
-    location: "USA",
-    image: "/images/media/img_18.jpg",
+    name: 'Martin Jonas',
+    location: 'USA',
+    image: '/images/media/img_18.jpg',
     rating: 5,
-    feedback:
-      "We have 9,000 agents around the country. Find agents near your neighborhood.",
+    feedback: 'We have 9,000 agents around the country. Find agents near your neighborhood.',
   },
   {
-    name: "Rashed ka.",
-    location: "Brazil",
-    image: "/images/media/img_19.jpg",
+    name: 'Rashed ka.',
+    location: 'Brazil',
+    image: '/images/media/img_19.jpg',
     rating: 5,
-    feedback:
-      "We have 9,000 agents around the country. Find agents near your neighborhood.",
+    feedback: 'We have 9,000 agents around the country. Find agents near your neighborhood.',
   },
   {
-    name: "Jannatul Fa.",
-    location: "England",
-    image: "/images/media/img_20.jpg",
+    name: 'Jannatul Fa.',
+    location: 'England',
+    image: '/images/media/img_20.jpg',
     rating: 5,
-    feedback:
-      "We have 9,000 agents around the country. Find agents near your neighborhood.",
+    feedback: 'We have 9,000 agents around the country. Find agents near your neighborhood.',
   },
   {
-    name: "Martin Jonas",
-    location: "USA",
-    image: "/images/media/img_18.jpg",
+    name: 'Martin Jonas',
+    location: 'USA',
+    image: '/images/media/img_18.jpg',
     rating: 5,
-    feedback:
-      "We have 9,000 agents around the country. Find agents near your neighborhood.",
+    feedback: 'We have 9,000 agents around the country. Find agents near your neighborhood.',
   },
   {
-    name: "Rashed ka.",
-    location: "Brazil",
-    image: "/images/media/img_19.jpg",
+    name: 'Rashed ka.',
+    location: 'Brazil',
+    image: '/images/media/img_19.jpg',
     rating: 5,
-    feedback:
-      "We have 9,000 agents around the country. Find agents near your neighborhood.",
+    feedback: 'We have 9,000 agents around the country. Find agents near your neighborhood.',
   },
 ];
 
@@ -95,20 +90,11 @@ const FeedbackSlider = () => {
             </ul>
             <p>{item.feedback}</p>
             <div className="d-flex align-items-center">
-              <img
-                src={item.image}
-                alt="media"
-                className="avatar rounded-circle"
-              />
+              <img src={item.image} alt="media" className="avatar rounded-circle" />
               <h6 className="name fs-20 fw-500 m0 ps-4">
-                {item.name}{" "}
-                <span className="d-block fw-normal">{item.location}</span>
+                {item.name} <span className="d-block fw-normal">{item.location}</span>
               </h6>
-              <img
-                src="/images/icon/icon_35.svg"
-                alt="media"
-                className="ms-auto"
-              />
+              <img src="/images/icon/icon_35.svg" alt="media" className="ms-auto" />
             </div>
           </div>
         </div>

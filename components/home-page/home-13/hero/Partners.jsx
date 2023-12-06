@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
 
 const Partners = () => {
   const partners = [
-    { name: "Google", font: "" },
-    { name: "", font: "font-recoleta" },
-    { name: "Facebook", font: "font-recoleta" },
-    { name: "", font: "" },
-    { name: "Insta", font: "" },
-    { name: "", font: "font-recoleta" },
-    { name: "Dribbble", font: "font-recoleta" },
-    { name: "", font: "" },
-    { name: "Fundbox", font: "" },
-    { name: "", font: "font-recoleta" },
-    { name: "Segment", font: "font-recoleta" },
+    { name: 'Google', font: '' },
+    { name: '', font: 'font-recoleta' },
+    { name: 'Facebook', font: 'font-recoleta' },
+    { name: '', font: '' },
+    { name: 'Insta', font: '' },
+    { name: '', font: 'font-recoleta' },
+    { name: 'Dribbble', font: 'font-recoleta' },
+    { name: '', font: '' },
+    { name: 'Fundbox', font: '' },
+    { name: '', font: 'font-recoleta' },
+    { name: 'Segment', font: 'font-recoleta' },
   ];
 
   return (
@@ -21,11 +21,7 @@ const Partners = () => {
         <span className="fw-bold">100+</span>
         <span className="font-recoleta">Trusted Partners</span>
         <span className="ms-4 d-none d-sm-inline-block">
-          <img
-            src="/images/shape/shape_119.svg"
-            alt="img"
-            className="lazy-img"
-          />
+          <img src="/images/shape/shape_119.svg" alt="img" className="lazy-img" />
         </span>
       </h3>
 

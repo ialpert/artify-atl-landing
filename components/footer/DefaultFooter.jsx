@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Footer2 from "./Footer2";
-import NewsLetter from "./NewsLetter";
-import CopyrightFooter2 from "./CopyrightFooter2";
+import Link from 'next/link';
+import Footer2 from './Footer2';
+import NewsLetter from './NewsLetter';
+import CopyrightFooter2 from './CopyrightFooter2';
 
 const DefaultFooter = () => {
   return (
@@ -24,9 +24,7 @@ const DefaultFooter = () => {
               <h5 className="footer-title tx-dark fw-normal">Newslettert</h5>
               <h6 className="pt-15 pb-20 md-pt-10">Join our newsletter</h6>
               <NewsLetter />
-              <div className="fs-14 mt-10">
-                We only send interesting and relevant emails.
-              </div>
+              <div className="fs-14 mt-10">We only send interesting and relevant emails.</div>
             </div>
             {/* End .col-xl-4 */}
           </div>
@@ -37,11 +35,7 @@ const DefaultFooter = () => {
       {/* /.bg-wrapper */}
       <CopyrightFooter2 />
       {/* /.bottom-footer */}
-      <img
-        src="/images/shape/shape_173.svg"
-        alt="shape"
-        className="lazy-img shapes shape-one"
-      />
+      <img src="/images/shape/shape_173.svg" alt="shape" className="lazy-img shapes shape-one" />
     </div>
   );
 };

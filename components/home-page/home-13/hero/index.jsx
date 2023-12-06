@@ -1,7 +1,7 @@
-import Hero1 from "../../home-1/Hero";
-import HeroContent from "./HeroContent";
-import HeroGallery from "./HeroGallery";
-import Partners from "./Partners";
+import Hero1 from '../../home-1/Hero';
+import HeroContent from './HeroContent';
+import HeroGallery from './HeroGallery';
+import Partners from './Partners';
 
 const index = () => {
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const ContactForm3 = () => {
   return (
@@ -10,12 +10,7 @@ const ContactForm3 = () => {
             <label className="d-block" htmlFor>
               Name*
             </label>
-            <input
-              type="text"
-              placeholder="Bostmai Hasan"
-              name="name"
-              required="required"
-            />
+            <input type="text" placeholder="Bostmai Hasan" name="name" required="required" />
             <div className="help-block with-errors" />
           </div>
         </div>
@@ -26,12 +21,7 @@ const ContactForm3 = () => {
             <label className="d-block" htmlFor>
               Email*
             </label>
-            <input
-              type="email"
-              placeholder="demo@domain.com"
-              name="email"
-              required="required"
-            />
+            <input type="email" placeholder="demo@domain.com" name="email" required="required" />
             <div className="help-block with-errors" />
           </div>
         </div>
@@ -39,12 +29,7 @@ const ContactForm3 = () => {
 
         <div className="d-block">
           <div className="input-group-meta form-group">
-            <textarea
-              placeholder="Your message*"
-              name="message"
-              required="required"
-              defaultValue={""}
-            />
+            <textarea placeholder="Your message*" name="message" required="required" defaultValue={''} />
             <div className="help-block with-errors" />
           </div>
         </div>
@@ -52,9 +37,7 @@ const ContactForm3 = () => {
       </div>
       {/* /.input-bg-group */}
 
-      <button className="btn-one fw-500 w-100 fs-18 d-block mt-45">
-        Send Message
-      </button>
+      <button className="btn-one fw-500 w-100 fs-18 d-block mt-45">Send Message</button>
     </form>
   );
 };

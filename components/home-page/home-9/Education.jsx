@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 const Education = () => {
   const educationItems = [
     {
-      degree: "Bachelor Degree of design.",
-      university: "University of Boston, USA",
+      degree: 'Bachelor Degree of design.',
+      university: 'University of Boston, USA',
     },
     {
-      degree: "UI/UX Design",
-      university: "University of Vegas, USA",
+      degree: 'UI/UX Design',
+      university: 'University of Vegas, USA',
     },
   ];
 

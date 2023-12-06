@@ -1,13 +1,12 @@
-import Form from "./Form";
+import Form from './Form';
 
 const Contact = () => {
   const contentData = {
-    imgSrc: "/images/icon/icon_60.svg",
-    title: "Let’s talk with experience advisors.",
-    subtitle:
-      "eiusmod tempor incididunt. Ut enim mim veniam, quis nostrud elit.",
-    urgent: "Urgent?",
-    phone: "+227 300-3676",
+    imgSrc: '/images/icon/icon_60.svg',
+    title: 'Let’s talk with experience advisors.',
+    subtitle: 'eiusmod tempor incididunt. Ut enim mim veniam, quis nostrud elit.',
+    urgent: 'Urgent?',
+    phone: '+227 300-3676',
   };
 
   return (
@@ -15,15 +14,13 @@ const Contact = () => {
       <div className="col-lg-5" data-aos="fade-right">
         <img src={contentData.imgSrc} alt="img" className="lazy-img" />
         <div className="title-style-one mt-35 mb-30">
-          <h2 className="main-title fw-normal tx-dark m0">
-            {contentData.title}
-          </h2>
+          <h2 className="main-title fw-normal tx-dark m0">{contentData.title}</h2>
         </div>
         <p className="text-lg tx-dark mb-55 lg-mb-30">{contentData.subtitle}</p>
         <div className="fw-500 fs-18 ur-text mb-5">{contentData.urgent}</div>
         <div className="call-btn">
           <span className="fs-18 tx-dark d-inline-block">Call us</span>
-          <a href={"tel:" + contentData.phone} className="tx-dark tran3s">
+          <a href={'tel:' + contentData.phone} className="tx-dark tran3s">
             {contentData.phone}
           </a>
         </div>
@@ -42,16 +39,8 @@ const Contact = () => {
             Fill the <br />
             form
           </div>
-          <img
-            src="/images/shape/shape_90.svg"
-            alt="img"
-            className="lazy-img shapes shape-one"
-          />
-          <img
-            src="/images/shape/shape_91.svg"
-            alt="img"
-            className="lazy-img shapes shape-two"
-          />
+          <img src="/images/shape/shape_90.svg" alt="img" className="lazy-img shapes shape-one" />
+          <img src="/images/shape/shape_91.svg" alt="img" className="lazy-img shapes shape-two" />
         </div>
         {/* /.form-bg-wrapper */}
       </div>

@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import PortfolioMenu from "../../header/PortfolioMenu";
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import PortfolioMenu from '../../header/PortfolioMenu';
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -15,28 +15,19 @@ const Header = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", changeBackground);
+    window.addEventListener('scroll', changeBackground);
     return () => {
-      window.removeEventListener("scroll", changeBackground);
+      window.removeEventListener('scroll', changeBackground);
     };
   }, []);
 
   return (
-    <header
-      className={`theme-main-menu sticky-menu theme-menu-four ${
-        navbar ? "fixed" : ""
-      }`}
-    >
+    <header className={`theme-main-menu sticky-menu theme-menu-four ${navbar ? 'fixed' : ''}`}>
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
           <div className="logo order-lg-0">
             <Link href="/" className="d-block">
-              <Image
-                src="/images/logo/logo_04.png"
-                alt="logo"
-                width={95}
-                height={30}
-              />
+              <Image src="/images/logo/logo_04.png" alt="logo" width={95} height={30} />
             </Link>
           </div>
           <div className="right-widget d-flex align-items-center ms-auto ms-lg-0 order-lg-3">

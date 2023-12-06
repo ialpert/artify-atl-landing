@@ -1,21 +1,21 @@
-import React from "react";
+import React from 'react';
 
 const socialMedia = [
   {
-    iconClass: "fab fa-facebook-square",
-    link: "#",
+    iconClass: 'fab fa-facebook-square',
+    link: '#',
   },
   {
-    iconClass: "fab fa-twitter-square",
-    link: "#",
+    iconClass: 'fab fa-twitter-square',
+    link: '#',
   },
   {
-    iconClass: "fab fa-linkedin",
-    link: "#",
+    iconClass: 'fab fa-linkedin',
+    link: '#',
   },
   {
-    iconClass: "fab fa-dribbble-square",
-    link: "#",
+    iconClass: 'fab fa-dribbble-square',
+    link: '#',
   },
 ];
 

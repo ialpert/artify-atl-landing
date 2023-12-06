@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-import Slider from "react-slick";
+import React, { useRef } from 'react';
+import Slider from 'react-slick';
 
 const Testimonial = () => {
   const sliderRef = useRef();
@@ -15,21 +15,21 @@ const Testimonial = () => {
   const testimonials = [
     {
       id: 1,
-      text: "Having a home based business is a wonderful asset to your life. The problem still stands it comes timeadvertise your business for a cheap cost. I know you have looked answer everywhere.",
-      name: "Rashed kabir",
-      role: "Designer",
+      text: 'Having a home based business is a wonderful asset to your life. The problem still stands it comes timeadvertise your business for a cheap cost. I know you have looked answer everywhere.',
+      name: 'Rashed kabir',
+      role: 'Designer',
     },
     {
       id: 2,
       text: "I really love this product! It has made my life so much easier and I can't imagine going back to the way things were before. Thank you for creating such an amazing solution!",
-      name: "John Doe",
-      role: "Developer",
+      name: 'John Doe',
+      role: 'Developer',
     },
     {
       id: 3,
-      text: "I was a bit skeptical at first, but after trying this product I was blown away by how effective it is. I would highly recommend it to anyone looking for a solution to their problem!",
-      name: "Jane Smith",
-      role: "Marketing Manager",
+      text: 'I was a bit skeptical at first, but after trying this product I was blown away by how effective it is. I would highly recommend it to anyone looking for a solution to their problem!',
+      name: 'Jane Smith',
+      role: 'Marketing Manager',
     },
   ];
 

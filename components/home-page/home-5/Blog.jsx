@@ -1,16 +1,11 @@
-import Link from "next/link";
-import blogData from "../../../data/blog";
+import Link from 'next/link';
+import blogData from '../../../data/blog';
 
 const Blog = () => {
   return (
     <div className="row">
       {blogData.slice(25, 27).map((item, index) => (
-        <div
-          className="col-md-6 d-flex"
-          data-aos="fade-up"
-          data-aos-delay={(index + 1) * 100}
-          key={index}
-        >
+        <div className="col-md-6 d-flex" data-aos="fade-up" data-aos-delay={(index + 1) * 100} key={index}>
           <article
             className="blog-meta-six d-flex flex-column position-relative zn2 mt-40"
             style={{ backgroundImage: `url(${item.imageSrc})` }}
@@ -18,10 +13,7 @@ const Blog = () => {
             <div className="post-data position-relative d-flex flex-column h-100">
               <div className="blog-header">
                 <div>
-                  <Link
-                    href={`/blog/${item.id}`}
-                    className="tag text-uppercase fw-500 tran3s mb-20"
-                  >
+                  <Link href={`/blog/${item.id}`} className="tag text-uppercase fw-500 tran3s mb-20">
                     {item.tag}
                   </Link>
                 </div>

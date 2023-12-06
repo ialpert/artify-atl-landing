@@ -1,4 +1,4 @@
-import Form from "./Form";
+import Form from './Form';
 
 const BannerSubscribe = () => {
   return (
@@ -8,19 +8,15 @@ const BannerSubscribe = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="title">
-                <h6 className="fw-normal text-uppercase tx-dark">
-                  DOmain Names
-                </h6>
-                <h2 className="m0 fw-bold tx-dark pe-xl-5">
-                  Every great website needs a great name.
-                </h2>
+                <h6 className="fw-normal text-uppercase tx-dark">DOmain Names</h6>
+                <h2 className="m0 fw-bold tx-dark pe-xl-5">Every great website needs a great name.</h2>
               </div>
               {/* /.title */}
             </div>
             <div className="col-lg-5">
               <p className="m0 tx-dark fs-20 lh-lg ps-xxl-5 md-mt-20">
-                Your domain name is your website address. While .com names are
-                the most popular, explore .org, .tech, .co and more.
+                Your domain name is your website address. While .com names are the most popular, explore .org, .tech,
+                .co and more.
               </p>
             </div>
           </div>

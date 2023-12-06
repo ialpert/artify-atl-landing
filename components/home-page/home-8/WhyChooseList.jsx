@@ -1,9 +1,9 @@
 const reasons = [
   {
-    title: "World best technology data and trusted by 10m+ users.",
+    title: 'World best technology data and trusted by 10m+ users.',
   },
   {
-    title: "We provide best price more than other market",
+    title: 'We provide best price more than other market',
   },
   {
     title: "We've expert to support you 24 hours in week.",

@@ -1,17 +1,11 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta
-          name="description"
-          content=""
-        />
-        <meta
-          name="keywords"
-          content=""
-        />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>

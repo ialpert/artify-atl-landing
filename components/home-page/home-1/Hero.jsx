@@ -1,13 +1,13 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image';
+import React from 'react';
 
 const Hero1 = () => {
   const options = [
-    { value: 0, display: "Select insurance type.." },
-    { value: 1, display: "Life Insurance" },
-    { value: 2, display: "Health insurance" },
-    { value: 3, display: "Property insurance" },
-    { value: 4, display: "Motor insurance" },
+    { value: 0, display: 'Select insurance type..' },
+    { value: 1, display: 'Life Insurance' },
+    { value: 2, display: 'Health insurance' },
+    { value: 3, display: 'Property insurance' },
+    { value: 4, display: 'Motor insurance' },
   ];
 
   const handleSubmit = (event) => {
@@ -19,20 +19,14 @@ const Hero1 = () => {
     <div className="hero-banner-ten position-relative zn2">
       <div className="container">
         <div className="row">
-          <div
-            className="col-lg-9 col-md-10 m-auto text-center"
-            data-aos="fade-up"
-          >
+          <div className="col-lg-9 col-md-10 m-auto text-center" data-aos="fade-up">
             <h1 className="hero-heading fw-500 tx-dark">
               Everything for your <span>Home</span> &amp; Future.
             </h1>
             <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
               Instant everything. Incredible prices. Big heart.
             </p>
-            <form
-              className="search-area d-md-inline-flex m-auto"
-              onSubmit={handleSubmit}
-            >
+            <form className="search-area d-md-inline-flex m-auto" onSubmit={handleSubmit}>
               <select className="nice-select form-select">
                 {options.map((option) => (
                   <option key={option.value} value={option.value}>
@@ -40,11 +34,7 @@ const Hero1 = () => {
                   </option>
                 ))}
               </select>
-              <input
-                type="text"
-                className="zip-code-input"
-                placeholder="Your Zip code"
-              />
+              <input type="text" className="zip-code-input" placeholder="Your Zip code" />
               <button className="fw-500 text-white tran3s" type="submit">
                 Search
               </button>

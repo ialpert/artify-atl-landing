@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const CallToActions = () => {
   const handleSubmit = (event) => {
@@ -11,11 +11,9 @@ const CallToActions = () => {
       <div className="wrapper">
         <div className="row align-items-center">
           <div className="col-lg-6" data-aos="fade-right">
-            <h2 className="title fw-500 text-white mb-20">
-              Let’s get started with us.
-            </h2>
+            <h2 className="title fw-500 text-white mb-20">Let’s get started with us.</h2>
             <p className="text-lg text-white m0">
-              For furthur info &amp; support,{" "}
+              For furthur info &amp; support,{' '}
               <Link href="/contact" className="text-decoration-underline">
                 Contact us.
               </Link>
@@ -30,9 +28,7 @@ const CallToActions = () => {
                   <input type="email" placeholder="Enter your email" required />
                   <button className="text-uppercase text-white">SEND</button>
                 </div>
-                <div className="fs-14 tx-dark opacity-75 mt-15">
-                  We’ll contact you shortly
-                </div>
+                <div className="fs-14 tx-dark opacity-75 mt-15">We’ll contact you shortly</div>
               </form>
             </div>
             {/* /.form-bg */}

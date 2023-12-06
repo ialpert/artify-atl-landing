@@ -1,27 +1,24 @@
-import Slider from "react-slick";
+import Slider from 'react-slick';
 
 const Testimonial = () => {
   const testimonials = [
     {
       id: 1,
-      icon: "/images/icon/icon_42.svg",
-      feedback:
-        "We’v 9,000 agents around the country, Find agents near your neighborhood.",
-      name: "John Doe",
+      icon: '/images/icon/icon_42.svg',
+      feedback: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
+      name: 'John Doe',
     },
     {
       id: 2,
-      icon: "/images/icon/icon_42.svg",
-      feedback:
-        "We’v 9,000 agents around the country, Find agents near your neighborhood.",
-      name: "Jane Doe",
+      icon: '/images/icon/icon_42.svg',
+      feedback: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
+      name: 'Jane Doe',
     },
     {
       id: 3,
-      icon: "/images/icon/icon_42.svg",
-      feedback:
-        "We’v 9,000 agents around the country, Find agents near your neighborhood.",
-      name: "Bob Smith",
+      icon: '/images/icon/icon_42.svg',
+      feedback: 'We’v 9,000 agents around the country, Find agents near your neighborhood.',
+      name: 'Bob Smith',
     },
   ];
 

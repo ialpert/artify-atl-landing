@@ -1,6 +1,6 @@
-import Counter from "./Counter";
-import ImgGallery from "./ImgGallery";
-import Intro from "./Intro";
+import Counter from './Counter';
+import ImgGallery from './ImgGallery';
+import Intro from './Intro';
 
 const index = () => {
   return (

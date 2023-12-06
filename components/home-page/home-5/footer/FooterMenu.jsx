@@ -1,26 +1,26 @@
 const FooterMenu = () => {
   const footerData = [
     {
-      title: "About",
+      title: 'About',
       links: [
-        { title: "Home", href: "/" },
-        { title: "Learn about us", href: "/about-v1" },
-        { title: "Careers", href: "/about-v1" },
-        { title: "Features", href: "/service-v1" },
-        { title: "Blog", href: "/blog-v1" },
+        { title: 'Home', href: '/' },
+        { title: 'Learn about us', href: '/about-v1' },
+        { title: 'Careers', href: '/about-v1' },
+        { title: 'Features', href: '/service-v1' },
+        { title: 'Blog', href: '/blog-v1' },
       ],
-      colClass: "col-lg-2 col-sm-4 mb-30", // Add col class for this section
+      colClass: 'col-lg-2 col-sm-4 mb-30', // Add col class for this section
     },
     {
-      title: "Services",
+      title: 'Services',
       links: [
-        { title: "Charity", href: "/service-details" },
-        { title: "Donation", href: "/service-details" },
-        { title: "Fundrising", href: "/service-details" },
-        { title: "Our Campaign", href: "/service-details" },
-        { title: "Volunteer", href: "/service-details" },
+        { title: 'Charity', href: '/service-details' },
+        { title: 'Donation', href: '/service-details' },
+        { title: 'Fundrising', href: '/service-details' },
+        { title: 'Our Campaign', href: '/service-details' },
+        { title: 'Volunteer', href: '/service-details' },
       ],
-      colClass: "col-lg-2 col-sm-4 mb-30", // Add col class for this section
+      colClass: 'col-lg-2 col-sm-4 mb-30', // Add col class for this section
     },
   ];
 

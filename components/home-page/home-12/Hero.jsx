@@ -1,10 +1,10 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Hero = () => {
   const socialLinks = [
-    { label: "Fb.", url: "#" },
-    { label: "Tw.", url: "#" },
-    { label: "Inst.", url: "#" },
+    { label: 'Fb.', url: '#' },
+    { label: 'Tw.', url: '#' },
+    { label: 'Inst.', url: '#' },
   ];
 
   return (
@@ -26,24 +26,16 @@ const Hero = () => {
 
         <div className="container">
           <div className="text-wrapper pb-60 position-relative">
-            <h1
-              className="hero-heading font-recoleta fw-light mb-30 lg-mb-50 pe-xxl-4"
-              data-aos="fade-up"
-            >
+            <h1 className="hero-heading font-recoleta fw-light mb-30 lg-mb-50 pe-xxl-4" data-aos="fade-up">
               <span className="line-one">Design,</span> Products, Brand In-House
               <span className="line-two">development</span> &amp; More.
             </h1>
 
             <div className="d-sm-flex align-items-center justify-content-between">
               <div className="d-inline-block">
-                <div className="ct-text fs-15 text-uppercase">
-                  Contact me for hire
-                </div>
+                <div className="ct-text fs-15 text-uppercase">Contact me for hire</div>
                 <div className="mt-5">
-                  <a
-                    href="mailto:hey@janodesign.com"
-                    className="mail-info tran3s"
-                  >
+                  <a href="mailto:hey@janodesign.com" className="mail-info tran3s">
                     hey@janodesign.com
                   </a>
                 </div>
@@ -56,11 +48,7 @@ const Hero = () => {
               </Link>
             </div>
 
-            <img
-              src="/images/shape/shape_142.svg"
-              alt="shape"
-              className="shapes lazy-img shape-one"
-            />
+            <img src="/images/shape/shape_142.svg" alt="shape" className="shapes lazy-img shape-one" />
           </div>
         </div>
       </div>

@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 const BlockContact2 = () => {
   const addressBlocks = [
     {
-      icon: "/images/icon/icon_161.svg",
-      title: "Our Address",
+      icon: '/images/icon/icon_161.svg',
+      title: 'Our Address',
       content: (
         <>
           1012 Pebda Parkway, Mirpur 2 <br />
@@ -13,8 +13,8 @@ const BlockContact2 = () => {
       ),
     },
     {
-      icon: "/images/icon/icon_162.svg",
-      title: "Contact Info",
+      icon: '/images/icon/icon_162.svg',
+      title: 'Contact Info',
       content: (
         <>
           Open a chat or give us call at <br />
@@ -25,8 +25,8 @@ const BlockContact2 = () => {
       ),
     },
     {
-      icon: "/images/icon/icon_163.svg",
-      title: "Live Support",
+      icon: '/images/icon/icon_163.svg',
+      title: 'Live Support',
       content: (
         <>
           Urgent go to live chat portal <br />

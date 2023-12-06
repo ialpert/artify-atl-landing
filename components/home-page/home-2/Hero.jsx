@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -7,10 +7,7 @@ const Hero = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-7" data-aos="fade-right">
-              <Link
-                href="/pages-menu/pricing"
-                className="slogan d-inline-block"
-              >
+              <Link href="/pages-menu/pricing" className="slogan d-inline-block">
                 <strong className="fw-500">Offer</strong>
                 is going on till friday, $1.99/mo.
                 <i className="fas fa-chevron-right" />
@@ -23,13 +20,9 @@ const Hero = () => {
                 web host.
               </h1>
               <p className="text-lg mb-70 pt-35 pe-xxl-5 md-pt-30 lg-mb-40">
-                Already have a website? Try our hosting to alive it With
-                industry-leading load times.
+                Already have a website? Try our hosting to alive it With industry-leading load times.
               </p>
-              <Link
-                href="/pages-menu/pricing"
-                className="btn-fourteen fw-500 tran3s"
-              >
+              <Link href="/pages-menu/pricing" className="btn-fourteen fw-500 tran3s">
                 Plans starting at only $3.95/mo
               </Link>
             </div>
@@ -37,11 +30,7 @@ const Hero = () => {
           {/* End .container */}
 
           <div className="illustration-holder" data-aos="fade-left">
-            <img
-              src="/images/assets/ils_05.svg"
-              alt="illustration"
-              className="lazy-img main-illustration"
-            />
+            <img src="/images/assets/ils_05.svg" alt="illustration" className="lazy-img main-illustration" />
           </div>
           {/* /.illustration-holder */}
         </div>

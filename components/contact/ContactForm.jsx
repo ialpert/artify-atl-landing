@@ -44,7 +44,7 @@ const ContactForm = () => {
                 name="message"
                 required="required"
                 data-error="Please,leave us a message."
-                defaultValue={""}
+                defaultValue={''}
               />
               <div className="help-block with-errors" />
             </div>
@@ -52,9 +52,7 @@ const ContactForm = () => {
           {/* End .col-12 */}
 
           <div className="col-12">
-            <button className="btn-twentyOne fw-500 tran3s d-block">
-              Send Message
-            </button>
+            <button className="btn-twentyOne fw-500 tran3s d-block">Send Message</button>
           </div>
           {/* End .col-12 */}
         </div>

@@ -1,14 +1,14 @@
 const AddressInfo = () => {
   const addresses = [
     {
-      icon: "/images/icon/icon_37.svg",
-      title: "Our Address",
-      address: "1012 Pebda Parkway, Mirpur 2\nDhaka, Bangladesh",
+      icon: '/images/icon/icon_37.svg',
+      title: 'Our Address',
+      address: '1012 Pebda Parkway, Mirpur 2\nDhaka, Bangladesh',
     },
     {
-      icon: "/images/icon/icon_38.svg",
-      title: "Contact Info",
-      address: "Open a chat or give us call at\n310.841.5500",
+      icon: '/images/icon/icon_38.svg',
+      title: 'Contact Info',
+      address: 'Open a chat or give us call at\n310.841.5500',
     },
   ];
 

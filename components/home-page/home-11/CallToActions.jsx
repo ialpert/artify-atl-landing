@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const CallToActions = () => {
   const handleSubmit = (event) => {
@@ -17,23 +17,11 @@ const CallToActions = () => {
             </h2>
           </div>
           {/* /.title-style-one */}
-          <p
-            className="text-lg tx-dark pt-45 pb-40 lg-pt-30 lg-pb-20"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <p className="text-lg tx-dark pt-45 pb-40 lg-pt-30 lg-pb-20" data-aos="fade-up" data-aos-delay="100">
             Try it risk free — we don’t charge cancellation fees.
           </p>
-          <div
-            className="subscribe-form m-auto"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <form
-              onSubmit={handleSubmit}
-              action="#"
-              className="position-relative"
-            >
+          <div className="subscribe-form m-auto" data-aos="fade-up" data-aos-delay="200">
+            <form onSubmit={handleSubmit} action="#" className="position-relative">
               <input type="email" placeholder="Email address" required />
               <button type="submit" className="tran3s position-absolute fw-500">
                 Subscribe
@@ -42,11 +30,8 @@ const CallToActions = () => {
             {/* End form */}
 
             <p className="m0 pt-20">
-              Already a member? {"  "}
-              <Link
-                href="/login"
-                className="tx-dark fw-500 text-decoration-underline"
-              >
+              Already a member? {'  '}
+              <Link href="/login" className="tx-dark fw-500 text-decoration-underline">
                 Sign in.
               </Link>
             </p>

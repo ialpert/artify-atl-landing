@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import PropertyBlock from "./PropertyBlock";
+import React, { useState } from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import PropertyBlock from './PropertyBlock';
 
 const ProperyFilter = () => {
   const [activeTabIndex, setActiveTabIndex] = useState(0);
 
-  const tabNames = ["PROPERTY", "CONDOS", "LAND"];
+  const tabNames = ['PROPERTY', 'CONDOS', 'LAND'];
 
   const handleTabSelect = (index) => {
     setActiveTabIndex(index);
@@ -26,13 +26,7 @@ const ProperyFilter = () => {
             <TabList className="nav nav-tabs border-0 justify-content-center justify-content-md-end">
               {tabNames.map((tabName, index) => (
                 <Tab key={index}>
-                  <button
-                    className={`nav-link ${
-                      activeTabIndex === index ? "active" : ""
-                    }`}
-                  >
-                    {tabName}
-                  </button>
+                  <button className={`nav-link ${activeTabIndex === index ? 'active' : ''}`}>{tabName}</button>
                 </Tab>
               ))}
             </TabList>

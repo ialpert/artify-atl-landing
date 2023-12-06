@@ -1,8 +1,8 @@
-import Link from "next/link";
-import { useState } from "react";
+import Link from 'next/link';
+import { useState } from 'react';
 
 const Hero = () => {
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState('');
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -10,10 +10,9 @@ const Hero = () => {
   };
 
   const content = {
-    heading: "Increase your web traffic with our expert",
-    subheading:
-      "Agency work with top rated talented people provide qulaity services.",
-    btnText: "Start Now",
+    heading: 'Increase your web traffic with our expert',
+    subheading: 'Agency work with top rated talented people provide qulaity services.',
+    btnText: 'Start Now',
   };
 
   return (
@@ -21,14 +20,8 @@ const Hero = () => {
       <h1 className="hero-heading fw-light tx-dark">
         <span className="position-relative">{content.heading}</span>
       </h1>
-      <p className="text-lg mb-75 pt-60 lg-mb-40 lg-pt-40">
-        {content.subheading}
-      </p>
-      <div
-        className="subscribe-form m-auto"
-        data-aos="fade-up"
-        data-aos-delay="200"
-      >
+      <p className="text-lg mb-75 pt-60 lg-mb-40 lg-pt-40">{content.subheading}</p>
+      <div className="subscribe-form m-auto" data-aos="fade-up" data-aos-delay="200">
         <form onSubmit={handleFormSubmit} className="position-relative">
           <input
             type="email"
@@ -41,7 +34,7 @@ const Hero = () => {
           </button>
         </form>
         <p className="m0 pt-10 fw-500 tx-dark fs-15">
-          Already using janu?{" "}
+          Already using janu?{' '}
           <Link href="/login" className="text-decoration-underline">
             Sign in.
           </Link>

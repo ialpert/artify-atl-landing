@@ -1,22 +1,22 @@
-import { useState } from "react";
-import ModalVideo from "react-modal-video";
+import { useState } from 'react';
+import ModalVideo from 'react-modal-video';
 
 const HeroBtnGroup = () => {
   const options = [
     {
-      value: "IOS & Android",
-      label: "IOS & Android",
-      icon: "/images/icon/icon_22.svg",
+      value: 'IOS & Android',
+      label: 'IOS & Android',
+      icon: '/images/icon/icon_22.svg',
     },
     {
-      value: "Mac & Windows",
-      label: "Mac & Windows",
-      icon: "/images/icon/icon_23.svg",
+      value: 'Mac & Windows',
+      label: 'Mac & Windows',
+      icon: '/images/icon/icon_23.svg',
     },
   ];
 
   const [isOpen, setOpen] = useState(false);
-  const [selectedValue, setSelectedValue] = useState("");
+  const [selectedValue, setSelectedValue] = useState('');
   const [showDropdown, setShowDropdown] = useState(false);
 
   const toggleDropdown = () => {
@@ -31,13 +31,7 @@ const HeroBtnGroup = () => {
 
   return (
     <>
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="20QUNgFIrK0"
-        onClose={() => setOpen(false)}
-      />
+      <ModalVideo channel="youtube" autoplay isOpen={isOpen} videoId="20QUNgFIrK0" onClose={() => setOpen(false)} />
 
       <div className="d-sm-flex align-items-center">
         <div
@@ -48,16 +42,11 @@ const HeroBtnGroup = () => {
           <i className="bi bi-play" />
           <div className="ps-3">
             <span className="d-block fs-15 text-uppercase">Watch</span>
-            <strong className="fs-18 fw-normal tx-dark d-block">
-              Intro Video
-            </strong>
+            <strong className="fs-18 fw-normal tx-dark d-block">Intro Video</strong>
           </div>
         </div>
 
-        <div
-          className="dropdown download-btn d-inline-block mb-25 me-4 order-sm-first"
-          onClick={toggleDropdown}
-        >
+        <div className="dropdown download-btn d-inline-block mb-25 me-4 order-sm-first" onClick={toggleDropdown}>
           <button
             className="dropdown-toggle tran3s"
             type="button"
@@ -65,12 +54,9 @@ const HeroBtnGroup = () => {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            {selectedValue ? selectedValue : "Download - It’s free"}
+            {selectedValue ? selectedValue : 'Download - It’s free'}
           </button>
-          <ul
-            className={`dropdown-menu ${showDropdown ? "show" : ""}`}
-            aria-labelledby="appDownBtn"
-          >
+          <ul className={`dropdown-menu ${showDropdown ? 'show' : ''}`} aria-labelledby="appDownBtn">
             {options.map((option, index) => (
               <li key={index}>
                 <a
