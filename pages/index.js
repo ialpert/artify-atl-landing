@@ -51,7 +51,7 @@ const MainRoot = () => {
                 Together, let&apos;s <span>Artify Atlanta!</span>
               </h1>
               <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
-                 We connect artists of Atlanta, collect resources on creative and ethical AI, and research AI&apos;s
+                We connect artists of Atlanta, collect resources on creative and ethical AI, and research AI&apos;s
                 impact on community.
               </p>
 
@@ -74,7 +74,7 @@ const MainRoot = () => {
                           <div className="col-xl-5 col-lg-6 order-lg-first">
                             <div className="form-style-two md-mb-40">
                               <form action="https://getform.io/f/f3128bd2-a3ab-4652-ac50-d1308d67ab90" method="POST">
-                                <input type="hidden" name="_gotcha" style="display:none !important"/>
+                                <input type="hidden" name="_gotcha" style={{'display':'none !important'}} />
                                 <div className="messages" />
                                 <div className="row controls">
                                   <div className="col-12">
