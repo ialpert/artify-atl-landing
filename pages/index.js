@@ -73,7 +73,8 @@ const MainRoot = () => {
                           </div>
                           <div className="col-xl-5 col-lg-6 order-lg-first">
                             <div className="form-style-two md-mb-40">
-                              <form netlify name="landing-leads">
+                              <form netlify name="landing-leads" method="POST">
+                              <input type="hidden" name="landing-leads" value="contact" />
                                 <div className="messages" />
                                 <div className="row controls">
                                   <div className="col-12">
