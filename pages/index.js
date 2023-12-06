@@ -1,7 +1,6 @@
 import Wrapper from "../layout/wrapper";
 
 import Seo from "../components/common/Seo";
-import ContactForm from "../components/home-page/home-1/ContactForm";
 import Link from "next/link";
 
 import Image from "next/image";
@@ -21,13 +20,13 @@ const MainRoot = () => {
     };
   
     useEffect(() => {
-      window.addEventListener("scroll", changeBackground);
+      window.addEventListener("scroll", changeBackground); 
       return () => {
         window.removeEventListener("scroll", changeBackground);
       };
     }, []);
 
-
+  
   return (
     <Wrapper> 
       <Seo pageTitle="" />
@@ -98,7 +97,59 @@ const MainRoot = () => {
                   </div>
                   <div className="col-xl-5 col-lg-6 order-lg-first">
                     <div className="form-style-two md-mb-40">
-                      <ContactForm />
+                    <form netlify>
+      <div className="messages" />
+      <div className="row controls">
+        <div className="col-12">
+          <div className="input-group-meta form-group mb-20">
+            <input
+              type="text"
+              placeholder="Your name*"
+              name="name"
+              required
+            />
+            <div className="help-block with-errors" />
+          </div>
+        </div> 
+        {/* End .col-12 */}
+
+        <div className="col-12">
+          <div className="input-group-meta form-group mb-20">
+            <input
+              type="email"
+              placeholder="Email*"
+              name="email"
+              required
+            />
+            <div className="help-block with-errors" />
+          </div>
+        </div>
+        {/* End .col-12 */}
+
+        <div className="col-12">
+          <div className="input-group-meta form-group mb-15">
+            <textarea
+              placeholder="Your message*"
+              name="message"
+              required
+            />
+            <div className="help-block with-errors" />
+          </div>
+        </div>
+        {/* End .col-12 */}
+
+        <div className="col-12">
+          <button
+            type="submit"
+            className="btn-twentyTwo w-100 fw-500 tran3s text-uppercase"
+          >
+            Count me in
+          </button>
+        </div>
+        {/* End .col-12 */}
+      </div>
+      {/* End .row */}
+    </form>
                     </div>
                   </div>
                 </div>
@@ -111,7 +162,7 @@ const MainRoot = () => {
               form
             </div>
             <img
-              src="/images/shape/shape_90.svg"
+              src="/images/shape/shape_90.svg" 
               alt="shape"
               className="lazy-img shapes shape-one"
               layout="intrinsic"
@@ -125,7 +176,7 @@ const MainRoot = () => {
           </div>
           {/* /.bg-wrapper */}
         </div>
-      </div>
+      </div> 
 
             <div>
               <div className="approval-info d-inline-flex align-items-center mt-130 lg-mt-80">
