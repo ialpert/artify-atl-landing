@@ -51,7 +51,7 @@ const MainRoot = () => {
                 Together, let&apos;s <span>Artify Atlanta!</span>
               </h1>
               <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
-                We connect artists of Atlanta, collect resources on creative and ethical AI, and research AI&apos;s
+                 We connect artists of Atlanta, collect resources on creative and ethical AI, and research AI&apos;s
                 impact on community.
               </p>
 
