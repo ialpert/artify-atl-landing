@@ -64,10 +64,10 @@ const MainRoot = () => {
                           <div className="col-lg-6 ms-auto order-lg-last">
                             <div className="text-wrapper">
                               <div className="title-style-one">
-                                <h2 className="main-title fw-500 tx-dark m0">Let’s talk with expereince advisors.</h2>
+                                <h2 className="main-title fw-500 tx-dark m0">Stay in the Loop!</h2>
                               </div>
                               <p className="fs-20 tx-dark pt-20 m0">
-                                eiusmod tempor incididunt. Ut enim mim veniam, quis nostrud elit lorem dolor.
+                              ArtifyATL is on the verge of bringing an artistic revolution to our community, and we invite you to be at the forefront! Sign up now to be notified about our project launch and discover opportunities to be featured as an artist in our upcoming initiatives.
                               </p>
                             </div>
                           </div>
